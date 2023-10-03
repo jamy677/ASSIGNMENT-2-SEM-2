@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    width: auto;
+    background-color: rgb(159, 157, 157);
+}
+p, li{
+    font-family: 'AR One Sans', sans-serif;
+}
+h1{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 65px;
+}
+header{
+    text-align: center;
+    background-color: #e41e1e;
+    padding: 10px 15px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    height: 240px;
+}
+a, li {
+    color: rgb(81, 50, 35);
+    text-decoration: none;
+    font-size: 20px;
+}
+.lyrics{
+    display: flex;
+    justify-content: center;
+}
+.lyrics > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.knees{
+    font-size: 45px;
+    color: #bd1212;
+}
+.knees{
+    font-size: 45px;
+    color: #bd1212; 
+}
+.distance{
+    font-size: 30px;
+    color: darkcyan;
+}
+.love{
+    font-size: 25px;
+    color: #65205c;
+}
+
+.david{
+    font-size: 20px;
+    color: crimson;
+}
+
+div:first-of-type p::first-line {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+div:first-of-type p::first-letter {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+
+.head a:hover{
+    color: #ffffff;
+}
+header a:hover{
+    color: #ffffff;
+}
+
+.dodge:hover{
+    color: yellowgreen;
+
+}
+.jeep:hover{
+    color: plum;
+}
+.letsgo:hover{
+    color: aqua;
+}
+.haha:hover{
+    color: coral;
+}
+.Rass:hover{
+    color: red;
+}
+div p:hover{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer h2{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 35px;
+    color: white;
+}
